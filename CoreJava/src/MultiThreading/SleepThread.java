@@ -1,0 +1,19 @@
+package MultiThreading;
+
+public class SleepThread {
+	public static void main(String[] args) {
+		try {
+			System.out.println("Thread Started");
+
+			Thread.sleep(2000); // ms -> 1s = 1000ms
+
+			System.out.println("Thread Resume");
+		} catch (InterruptedException e) {
+			System.out.println(e);
+		}
+
+	}
+//	sleep - interrupt
+// thread - poll
+	// join a
+}

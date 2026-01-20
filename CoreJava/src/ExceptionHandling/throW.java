@@ -1,0 +1,17 @@
+package ExceptionHandling;
+
+public class throW {
+	public static void main(String[] args) {
+		validate(15);
+	}
+	
+	public static void validate(int age) {
+		if(age<= 18) {
+			throw new ArithmeticException("18 se niche wali value allow nhi hai!!!");
+		}
+		else {
+			System.out.println("Eligible");
+		}
+	}
+	
+}

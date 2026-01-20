@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;switchCode.java&apos; to &apos;CoreJava/src/conditional&apos;&#x0A;- Original project: &apos;CoreJava&apos;&#x0A;- Destination element: &apos;CoreJava/src/conditional&apos;&#x0A;- Original element: &apos;Intro.switchCode.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;conditional" element1="/src&lt;Intro{switchCode.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1767087442822" units="1" version="1.0"/>
+</session>

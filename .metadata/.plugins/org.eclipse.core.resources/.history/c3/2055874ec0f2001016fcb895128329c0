@@ -1,0 +1,7 @@
+package ExceptionHandling;
+
+public class throW {
+	public static void main(String[] args) {
+		
+	}
+}

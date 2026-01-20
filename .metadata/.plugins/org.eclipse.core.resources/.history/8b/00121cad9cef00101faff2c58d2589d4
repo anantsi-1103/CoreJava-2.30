@@ -1,0 +1,59 @@
+package String;
+
+public class code1 {
+	public static void main(String[] args) {
+
+		String s1 = "Aman";
+		String s2 = "Aman";
+		String s3 = new String("aman");
+
+//		if(s1.compareToIgnoreCase(s3)==0) {
+//			System.out.println("Equals");
+//		}
+//		
+//		else {
+//			System.out.println("Not Equals");
+//		}
+
+//		if(s1.equalsIgnoreCase(s3)) {
+//			System.out.println("Equals");
+//		}
+//		
+//		else {
+//			System.out.println("Not Equals");
+//		}
+
+//		String fname = "Java Programming";
+//		String lname = "Mishra";
+//		
+//		System.out.println(fname.length());
+//		
+//		System.out.println(fname+" "+lname);
+//		
+//		System.out.println(fname.toLowerCase());
+//
+//		System.out.println(fname.toUpperCase());
+//		
+//		System.out.println(fname.charAt(2));
+//		
+//		System.out.println(lname.contains("A"));
+//		
+//		System.out.println(fname.startsWith("a"));
+//		System.out.println(fname.endsWith(" "));
+//		
+//		System.out.println(fname.replace("a", "t"));
+//		
+//		System.out.println(fname.substring(3));
+//		System.out.println(fname.substring(3,8));
+//		
+//		System.out.println(fname.concat(lname));
+//		
+//		System.out.println(fname.join("-",lname));
+//		
+//		String s = String.join(":", "Java", "Python", "C");
+//		System.out.println(s);
+
+		String name = "Aman";
+
+	}
+}

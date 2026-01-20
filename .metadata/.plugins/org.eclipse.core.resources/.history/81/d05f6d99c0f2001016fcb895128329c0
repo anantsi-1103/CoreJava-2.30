@@ -1,0 +1,7 @@
+package ExceptionHandling;
+
+public class throwss {
+	 public static void main(String[] args) {
+		
+	}
+}

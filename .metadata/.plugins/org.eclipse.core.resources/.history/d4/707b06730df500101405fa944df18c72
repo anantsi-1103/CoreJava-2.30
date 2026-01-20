@@ -1,0 +1,20 @@
+package MultiThreading;
+
+public class code2 {
+	public static void main(String[] args) {
+		MyRunnable myrun = new MyRunnable();
+		Thread t1 = new Thread(myrun);
+		
+		t1.start();
+		
+	}
+}
+
+class MyRunnable implements Runnable{
+
+
+	public void run() {
+		System.out.println("Thread by Runnable Interface");
+	}
+	
+}

@@ -1,0 +1,38 @@
+package OOPs;
+
+public class oops1 {
+	public static void main(String[] args) {
+		// object creation
+		Student_form s1 = new Student_form();
+
+		s1.addName("RAM");
+		s1.addCity("Delhi");
+		s1.addAge(20);
+
+	}
+}
+
+class Student_form {
+
+	// data members ->
+	String name; // 
+	int age;
+	String city;
+
+	// function ->
+	void addName(String newName) {
+		this.name = newName;
+	}
+
+	void addAge(int newAge) {
+		this.age = newAge;
+	}
+
+	void addCity(String newCity) {
+		this.city = newCity;
+	}
+	
+	String getName() {
+		return name;
+	}
+}

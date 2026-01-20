@@ -1,0 +1,15 @@
+package MultiThreading;
+
+import java.security.PublicKey;
+
+public class code1 {
+	public static void main(String[] args) {
+
+	}
+}
+
+class MyThread extends Thread {
+	public void run() {
+		System.out.println("Thread is Running!!!");
+	}
+}

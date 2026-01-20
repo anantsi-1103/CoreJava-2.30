@@ -1,0 +1,67 @@
+package OOPs;
+
+public class oops2 {
+	public static void main(String[] args) {
+		// object creation
+		Student_form s1 = new Student_form();
+
+		// setter
+		s1.addName("RAM");
+		s1.addCity("Delhi");
+		s1.addAge(20);
+
+		// getter
+		System.out.println(s1.getName());
+		System.out.println(s1.getAge());
+		System.out.println(s1.getCity());
+
+		// object new object
+		Student_form s2 = new Student_form();
+
+		// setter
+		s2.addName("Aman");
+		s2.addCity("Jaipur");
+		s2.addAge(22);
+
+		// getter
+		System.out.println(s2.getName());
+		System.out.println(s2.getAge());
+		System.out.println(s2.getCity());
+
+	}
+}
+
+class Student_form {
+
+	// data members ->
+	String name; //
+	int age;
+	String city;
+
+	// function ->
+	// Setter -- to set the value
+	void addName(String newName) {
+		this.name = newName;
+	}
+
+	void addAge(int newAge) {
+		this.age = newAge;
+	}
+
+	void addCity(String newCity) {
+		this.city = newCity;
+	}
+
+	// gettter to get the value
+	String getName() {
+		return this.name;
+	}
+
+	String getCity() {
+		return this.city;
+	}
+
+	int getAge() {
+		return this.age;
+	}
+}

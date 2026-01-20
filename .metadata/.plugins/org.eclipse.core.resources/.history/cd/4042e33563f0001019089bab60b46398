@@ -1,0 +1,59 @@
+package recursion;
+
+public class code1 {
+
+	public static int sum_of_num_loop(int n) {
+		int sum = 0;
+		for (int i = 1; i <= n; i++) { // 100
+			sum = sum + i; // 200
+		}
+
+		return sum;
+	}
+
+	public static int sum_of_num_recu(int n) {
+		// base case
+		if (n == 0)
+			return n;
+		// kaam
+		return n + sum_of_num_recu(n - 1);
+	}
+
+	public static int factorial(int n) {
+		// base case
+		if (n == 1)
+			return n;
+		// kaam
+		return n * factorial(n - 1);
+	}
+
+	public static int fibo(int n) {
+		if (n == 0 || n == 1) {
+			return n;
+		}
+
+		return fibo(n - 1) + fibo(n - 2);
+	}
+
+	public static int desc_count(int n) {
+		if (n == 1) {
+			return n;
+		}
+
+		System.out.println(n);
+		return desc_count(n - 1);
+	}
+
+	public static int desc_count(int i, int n) {
+		if (i == n) {
+			return i;
+		}
+
+		System.out.println(i);
+		return desc_count(i + 1, n);
+	}
+
+	public static void main(String[] args) {
+		System.out.println(desc_count(100));
+	}
+}

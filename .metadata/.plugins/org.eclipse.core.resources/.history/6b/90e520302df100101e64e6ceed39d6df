@@ -1,0 +1,24 @@
+package OOPs;
+
+public class oops1 {
+	public static void main(String[] args) {
+		Student_form s1 = new Student_form();
+		
+		System.out.println(s1.name);
+	}
+}
+
+class Student_form{
+	
+	// data members -> 
+	String name;
+	int age;
+	String city;
+	
+	
+	// function -> 
+	
+	void addName(String newName) {
+		this.name = newName;
+	}
+}

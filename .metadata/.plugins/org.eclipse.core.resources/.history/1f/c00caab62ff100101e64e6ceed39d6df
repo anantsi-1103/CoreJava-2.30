@@ -1,0 +1,14 @@
+package OOPs;
+
+public class oops3 {
+	public static void main(String[] args) {
+		
+
+	}
+}
+
+
+class Account{
+	int AccountNumber;
+	private String Password;
+}

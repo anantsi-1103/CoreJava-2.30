@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/Users/anantsi/Desktop/Ducat/WEEK DAY/WD Java @2.30/.metadata/.plugins/org.eclipse.jdt.core
+511757866.index
+2298045145.index
+1865797976.index

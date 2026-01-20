@@ -1,0 +1,24 @@
+package recursion;
+
+public class code1 {
+	
+	public static int sum_of_num_loop(int n) {
+		int sum = 0;
+		for(int i = 1; i<= n ; i++) { // 100
+			sum = sum + i; // 200
+		}
+		
+		return sum;
+	}
+	
+	public static int sum_of_num_recu(int n) {
+		// base case 
+		
+		// kaam
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	}
+}

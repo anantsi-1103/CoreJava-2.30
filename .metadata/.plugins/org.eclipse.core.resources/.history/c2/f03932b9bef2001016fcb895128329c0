@@ -1,0 +1,21 @@
+package ExceptionHandling;
+
+public class code1 {
+	public static void main(String[] args) {
+//		Arithmetic -> n/0 -> 
+		System.out.println("Start");
+		try {
+//			int a = 10 / 5;
+//			System.out.println(a);
+			
+			String name = "";
+			System.out.println(name.length());
+		} catch (Exception e) {
+			System.out.println(e);
+		} finally {
+			System.out.println("Always Executed");
+		}
+
+		System.out.println("Rest of the Services ");
+	}
+}
