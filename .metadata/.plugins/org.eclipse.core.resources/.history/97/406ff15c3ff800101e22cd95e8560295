@@ -1,0 +1,9 @@
+package Collectionframwork;
+
+import java.util.Queue;
+
+public class queue {
+	public static void main(String[] args) {
+		Queue<Integer> q = new Queue<>();
+	}
+}

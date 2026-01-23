@@ -1,0 +1,17 @@
+package Collectionframwork;
+
+import java.util.ArrayList;
+
+public class arraylist {
+	public static void main(String[] args) {
+		ArrayList<String> name = new ArrayList<>();
+
+		name.add("Swastik");
+		name.add("laxmi");
+		name.add("gaurav");
+		name.add("Shambhavi");
+
+		System.out.println(name);
+
+	}
+}

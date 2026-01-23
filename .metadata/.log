@@ -8635,3 +8635,16 @@ org.eclipse.jdt.internal.compiler.problem.AbortCompilation:
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2026-01-23 14:48:40.357 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/anantsi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/anantsi/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-23 14:48:46.199
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-23 14:48:57.874
+!MESSAGE Logback config file: /Users/anantsi/Desktop/Ducat/WEEK DAY/WD Java @2.30/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml

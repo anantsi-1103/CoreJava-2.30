@@ -1,0 +1,44 @@
+package Collectionframwork;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class arraylist {
+	public static void main(String[] args) {
+		ArrayList<String> name = new ArrayList<>();
+
+		name.add("Swastik");
+		name.add("laxmi");
+		name.add("gaurav");
+		name.add("Shambhavi");
+
+		System.out.println(name);
+//
+//		name.add(2, "Ashutosh");
+//
+//		System.out.println(name);
+//
+//		System.out.println(name.get(1));
+//
+//		System.out.println(name.remove(3));
+//
+//		System.out.println(name);
+//		
+//		System.out.println(name.contains("laxmi"));
+//		System.out.println(name);
+
+//		for (int i = 0; i < name.size(); i++) {
+//			System.out.println(name.get(i));
+//		}
+
+//		for (String i : name) {
+//			System.out.println(i);
+//		}
+
+//		Iterator<String> i = name.iterator();
+//		while (i.hasNext()) {
+//			System.out.println(i.next());
+//		}
+
+	}
+}
