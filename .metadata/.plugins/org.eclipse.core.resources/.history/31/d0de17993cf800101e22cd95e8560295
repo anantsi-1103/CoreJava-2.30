@@ -1,0 +1,48 @@
+package Java8Features;
+
+import java.time.Duration;
+import java.time.LocalTime;
+
+public class dateTimeAPI {
+	public static void main(String[] args) {
+//		LocalDate lc = LocalDate.now();
+//		System.out.println(lc);
+//
+//		LocalTime l1 = LocalTime.now();
+//		System.out.println(l1);
+//
+//		LocalDateTime l2 = LocalDateTime.now();
+//		System.out.println(l2);
+		
+//		Date - Period 
+// 		Time - Duration
+		
+//		LocalDate start = LocalDate.of(2010, 12, 13);
+//		LocalDate current = LocalDate.now();
+//		
+//		Period p = Period.between(start, current);
+//		
+//		long days = ChronoUnit.DAYS.between(start, current);
+//		
+//		
+//		System.out.println(p.getDays());
+//		System.out.println(p.getMonths());
+//		System.out.println(p.getYears());
+//		System.out.println(p);
+//		
+//		System.out.println(days);
+//		
+		
+		
+		LocalTime l1 = LocalTime.of(10, 45);
+		LocalTime l2 = LocalTime.of(12, 0);
+		
+		Duration duration = Duration.between(l1, l2);
+		System.out.println(duration.toHours());
+		System.out.println(duration.toMinutes());
+		System.out.println(duration.toSeconds());
+		
+		
+
+	}
+}

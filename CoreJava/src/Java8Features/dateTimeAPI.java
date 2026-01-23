@@ -1,10 +1,7 @@
 package Java8Features;
 
 import java.time.Duration;
-import java.time.LocalDate;
 import java.time.LocalTime;
-import java.time.Period;
-import java.time.temporal.ChronoUnit;
 
 public class dateTimeAPI {
 	public static void main(String[] args) {
@@ -37,13 +34,13 @@ public class dateTimeAPI {
 //		
 		
 		
-		LocalTime l1 = LocalTime.of(10, 45);
-		LocalTime l2 = LocalTime.of(12, 0);
-		
-		Duration duration = Duration.between(l1, l2);
-		System.out.println(duration.toHours());
-		System.out.println(duration.toMinutes());
-		System.out.println(duration.toSeconds());
+//		LocalTime l1 = LocalTime.of(10, 45);
+//		LocalTime l2 = LocalTime.of(12, 0);
+//		
+//		Duration duration = Duration.between(l1, l2);
+//		System.out.println(duration.toHours());
+//		System.out.println(duration.toMinutes());
+//		System.out.println(duration.toSeconds());
 		
 		
 

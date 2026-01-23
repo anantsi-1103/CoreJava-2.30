@@ -1,0 +1,15 @@
+package Collectionframwork;
+
+import java.util.ArrayDeque;
+
+public class dequeu {
+	public static void main(String[] args) {
+		ArrayDeque<Integer> arr = new ArrayDeque<Integer>();
+		
+		arr.offerFirst(10);
+		arr.offerFirst(20);
+		arr.offerLast(50);
+		
+		System.out.println(arr);
+ 	}
+}

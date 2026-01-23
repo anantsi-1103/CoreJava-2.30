@@ -1,0 +1,23 @@
+package Collectionframwork;
+
+import java.util.Stack;
+
+public class stack {
+	public static void main(String[] args) {
+		Stack<String> s = new Stack<>();
+
+		s.push("Swastik");
+		s.push("Laxmi");
+		s.push("Shambhavi");
+		s.push("Gaurav");
+		s.push("Ashutosh");
+
+		System.out.println(s);
+
+		System.out.println(s.peek()); // last element add kra hoga woh element top pr hoga
+
+		System.out.println(s.pop());
+		System.out.println(s);
+
+	}
+}
