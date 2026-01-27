@@ -1,9 +1,0 @@
-package MultiThreading;
-
-public class SleepThread {
-	public static void main(String[] args) {
-		try {
-			System.out.println("Thread Started");
-		}
-	}
-}

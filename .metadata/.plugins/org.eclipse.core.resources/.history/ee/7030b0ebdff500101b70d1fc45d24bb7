@@ -1,7 +1,0 @@
-package MultiThreading;
-
-public class InterruptCode {
-	public static void main(String[] args) {
-		
-	}
-}

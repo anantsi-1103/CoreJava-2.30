@@ -12,6 +12,8 @@ public class dequeu {
 		
 		arr.pollFirst();
 		arr.pollLast();
+		
+		
 		System.out.println(arr);
 		
 		System.out.println(arr.peek());
